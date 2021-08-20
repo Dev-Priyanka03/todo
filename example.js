@@ -16,7 +16,6 @@ deleteIcon.setAttribute('id','icon1')
 deleteIcon.setAttribute('onclick','removeList()')
 deleteIcon.innerHTML='<i class="fas fa-trash"></i>'
 newListElement.appendChild(deleteIcon);
-console.log(newListElement)
 return newListElement;
 }
 
